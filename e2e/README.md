@@ -30,7 +30,7 @@ This approach might not be as pure as some would advocate for BDD, but it strike
 
 Here is an example of a Cucumber scenario written with the common steps:
 
-(https://github.com/mdrasul/RubyCucumberWatirAutomation/blob/master/e2e/ReadmeAsset/Image%201.jpg)
+![BDD Flow](https://github.com/mdrasul/RubyCucumberWatirAutomation/blob/master/e2e/ReadmeAsset/Image%201.jpg)
 
 
 framework is licensed is scripted as Page Objct Model. So Automation Enginer Can Quickly pick an existing page object 
