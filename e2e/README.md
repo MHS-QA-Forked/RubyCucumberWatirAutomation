@@ -200,7 +200,10 @@ If you run into libxml erorrs fix it as suggested in this post
 		https://gist.github.com/vparihar01/5856524
 		
 ### Test Plan & Test Case Reference 
+Smoke Test will be execute each feature update in Boade Base 
+Full Regression will run after code freeze Before Release 
 
+Automated Test can be Added as a Pipeline of jenkins Build on each build trigger  
 
 | ﻿Feature                        	| Jira #   	| TCID                  	| Scenarios                                                       	| Runmode 	| Browser  	| Platforms        	| Test Cycle 	| Comments 	|   	|
 |--------------------------------	|----------	|-----------------------	|-----------------------------------------------------------------	|---------	|----------	|------------------	|------------	|----------	|---	|
