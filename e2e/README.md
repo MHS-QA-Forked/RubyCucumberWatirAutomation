@@ -33,10 +33,12 @@ Here is an example of a Cucumber scenario written with the common steps:
 ![BDD Flow](https://github.com/mdrasul/RubyCucumberWatirAutomation/blob/master/e2e/ReadmeAsset/Image%201.jpg)
 
 
-framework is licensed is scripted as Page Objct Model. So Automation Enginer Can Quickly pick an existing page object 
-and utlize the encapsulated Locator & Functinality 
+framework is scripted as Page Objct Model patterns. So automation engineers Can Quickly pick an existing page object 
+and utilize the encapsulated Code Behind the page class
 
-(https://github.com/mdrasul/RubyCucumberWatirAutomation/blob/master/e2e/ReadmeAsset/Image%203.jpg)
+Have look on POM Structure:
+
+![Step to POM](https://github.com/mdrasul/RubyCucumberWatirAutomation/blob/master/e2e/ReadmeAsset/Image%203.jpg)
 
 
 
