@@ -193,14 +193,17 @@ If you run into libxml erorrs fix it as suggested in this post
 		
 ### Test Plan & Test Case Reference 
 
-This is a test automation scripts. that picks up a set off fault model IP address both for Ipv4 & Ipv6. 
-Then it parse the IP address against standards rules - Validate them add a flag Ok(1) or Not Ok (0) with parsed IP and print it to command line in a Comma Separated value. 
-example ( for full test case list see the testcase.txt file 
-```
-TestCase ID	|	IP	|	Type |	Description
-======================================================================================= 	
-Test 0		  |	me	|	IPv4	|	IPv4 address Min Boundary
-Test 1		  |	0.0.0.0	|	IPv4	|	IPv4 address Min Boundary
-Test 2		  |	27.0.0.1|	IPv4	|	IPv4 address Regular
-Test 6		  |	2605:2700:0:3::4713:93e3	|	IPv6	|	public IPv6 address
-		
+
+| ﻿Feature                        	| Jira #   	| TCID                  	| Scenarios                                                       	| Runmode 	| Browser  	| Platforms        	| Test Cycle 	| Comments 	|   	|
+|--------------------------------	|----------	|-----------------------	|-----------------------------------------------------------------	|---------	|----------	|------------------	|------------	|----------	|---	|
+| Budget-HomePage Basic Loads    	| xxxxxxxx 	| Home_Page_001         	| Load & Validate Basic Elemnts Like [Page Title, Logo]           	| N       	| ChromeFX 	| WindowsMACDevice 	| Smoke      	|          	|   	|
+| Budget-HomePage Basic Loads    	| xxxxxxxx 	| Home_Page_002         	| Load & Validate Transaction Table                               	| N       	| Chrome   	| Windows          	| smoke      	|          	|   	|
+| Budget-HomePage Basic Loads    	| xxxxxxxx 	| Home_Page_003         	| Load & Validate Git-Hub Link[ Star, Fork]                       	| N       	| Chrome   	| Windows          	| smoke      	|          	|   	|
+| Budget-Transaction             	| xxxxxxxx 	| Budget-Transaction001 	| Perform A income Transaction Validate Inflow & Balance          	| Y       	| Chrome   	| Windows          	| Regression 	|          	|   	|
+| Budget-Transaction             	| xxxxxxxx 	| Budget-Transaction002 	| Perform A Expense Transaction Validate Outflow & Balance        	| Y       	| Chrome   	| Windows          	| Regression 	|          	|   	|
+| Budget-ReportPage Basic Loads  	| xxxxxxxx 	| Home_Report_001       	| Load & Validate Basic Elemnts Like [Page Title, Logo]           	| N       	| ChromeFX 	| WindowsMACDevice 	| smoke      	|          	|   	|
+| Budget-ReportPage Basic Loads  	| xxxxxxxx 	| Home_Report_002       	| Load & Validate Basic Report Bar                                	| N       	| Chrome   	| Windows          	| smoke      	|          	|   	|
+| Budget-ReportPage Basic Loads  	| xxxxxxxx 	| Home_Report_002       	| Load & Validate Basic Report Charts & Legends                   	| N       	| Chrome   	| Windows          	| smoke      	|          	|   	|
+| Budget-Reporting Functionality 	| xxxxxxxx 	| Budget-Reporting1     	| Perform A income Transaction Validate Inflow vs Outflow Report  	| Y       	| Chrome   	| Windows          	| Regression 	|          	|   	|
+| Budget-Reporting Functionality 	| xxxxxxxx 	| Budget-Reporting2     	| Perform A Expense Transaction Validate Inflow vs Outflow Report 	| Y       	| Chrome   	| Windows          	| Regression 	|          	|   	|
+| Budget-Reporting Functionality 	| xxxxxxxx 	| Budget-Reporting3     	| Perform A Expense Transaction Validate Spending By Cate Report  	| Y       	| Chrome   	| Windows          	| Regression 	|          	|   	|
