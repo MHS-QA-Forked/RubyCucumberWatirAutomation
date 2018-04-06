@@ -3,7 +3,7 @@ Feature: Transaction Test
   As a user
   I want to check I can Complete Positive & Negative Transaction
 
-   @desktop @smoke
+   @desktop
   Scenario: Create A Expense Transaction
 
    Given I Start Running Scenario "Create A Expense Transaction"
@@ -26,7 +26,7 @@ Feature: Transaction Test
     And I Stop Running
 
 
-  @desktop @mobile @regression
+  @desktop
   Scenario: Create A Income Transaction
 
     Given I Start Running Scenario "Create A Income Transaction"

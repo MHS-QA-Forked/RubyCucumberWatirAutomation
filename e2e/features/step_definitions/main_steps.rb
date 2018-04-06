@@ -53,6 +53,7 @@ Given(/^I click the "(.*?)" link$/) do |ele|
        @browser.link(:id, ele).click
 
   when @browser.link(:text, ele).exists?
+       @browser.execute_script("arguments[0].style.backgroundColor = '"+"yellow"+"'",  @browser.link(:text, ele))
        @browser.link(:text, ele).click
 
   when @browser.link(:class, ele).exists?
@@ -107,7 +108,8 @@ Given(/^I click the "(.*?)" span$/) do |ele|
        @browser.span(:id, ele).click
 
   when @browser.span(:text, ele).exists?
-       @browser.span(:text, ele).click
+        @browser.execute_script("arguments[0].style.backgroundColor = '"+"yellow"+"'",  @browser.span(:text, ele))
+        @browser.span(:text, ele).click
 
   when @browser.span(:class, ele).exists?
        @browser.span(:class, ele).click

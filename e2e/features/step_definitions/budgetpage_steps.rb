@@ -139,5 +139,3 @@ Then(/^I Validate "([^"]*)" decreased/) do |arg|
 
 
 end
-
-

@@ -175,6 +175,14 @@ To run the whole regression suite, run:
 
 An HTML report will be saved to the `results` folder with screenshots of any failures.
 
+## Highlighted Test Run Screen Shots 
+@Runtime watir Highlight every elements in page its working with so any time any fail screen shot comes with highlighted element 
+so the result can be more pin-pointed 
+
+ ![Highlighted Element](https://github.com/mdrasul/RubyCucumberWatirAutomation/blob/master/e2e/ReadmeAsset/HighlightElement.jpg)
+ ![Highlighted rows](https://github.com/mdrasul/RubyCucumberWatirAutomation/blob/master/e2e/ReadmeAsset/HighlightTableRows.jpg)
+
+
 
 Tips and Troubleshooting:
 --------------------------
