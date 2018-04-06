@@ -141,6 +141,12 @@ Running tests
 
 You can run the tests directly with the cucumber command, or with a set of preset command line options using the `rake` command.
 
+First setup the Env Url in project/features/support/urls.rb file 
+this is important to run test on localhost/dev/qa/prod environment 
+[add image here]
+
+
+
 ### Run cucumber directly
 
 To run tests directly using Cucumber, simply issue the command:

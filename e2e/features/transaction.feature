@@ -48,32 +48,3 @@ Feature: Transaction Test
 
     And I Stop Running
 
-
-
-#
-#  @desktop
-#  Scenario: Create A Income Transaction
-#    Given I Land on BudgetApplication
-#
-#    When I Add A Transaction as
-#      | Category | Description | Value |
-#      | Income   | Salary      | 1000  |
-#
-#    Then I Validate Transaction Added to Last Row
-#      | Category | Description | Value |
-#      | Income   | Salary      | 1000  |
-
-
-
-
-#     Then I Validate "CurrentTotalInFlowNumber" increased
-
-#     And I Store "CurrentTotalInFlowField" Text
-#     And I Store "CurrentWorkingBalanceAmount" Text
-
-
-    #And I select a "expense category" as "Health"
-    #And I enter "expense Description" as "Insurence Bill"
-    #And I enter "expense value" as "50"
-    #When I click "ADD" Button
-    #Then I Validate Total Outflow Amount decrease
