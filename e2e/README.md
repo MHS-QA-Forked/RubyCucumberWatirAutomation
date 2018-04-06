@@ -30,13 +30,13 @@ This approach might not be as pure as some would advocate for BDD, but it strike
 
 Here is an example of a Cucumber scenario written with the common steps:
 
-[Add Bdd Image here ]
+(https://github.com/mdrasul/RubyCucumberWatirAutomation/blob/master/e2e/ReadmeAsset/Image%201.jpg)
 
 
 framework is licensed is scripted as Page Objct Model. So Automation Enginer Can Quickly pick an existing page object 
 and utlize the encapsulated Locator & Functinality 
 
-[Add Step to POM Diagram Picture Here  ]
+(https://github.com/mdrasul/RubyCucumberWatirAutomation/blob/master/e2e/ReadmeAsset/Image%203.jpg)
 
 
 
