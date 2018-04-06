@@ -149,7 +149,7 @@ To run tests directly using Cucumber, simply issue the command:
 
 The above command runs all the tests inside the feature folder but that is not what you want sometimes. To run single individual tests you have to specify the line numbers as below:.
 
-		cucumber features/main.feature:217
+		cucumber features/transaction.feature:217
 
 This will run the test scenario at line number 217 in the file `features/main.feature`.
 
